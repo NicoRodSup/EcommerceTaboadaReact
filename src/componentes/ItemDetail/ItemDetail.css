@@ -1,0 +1,90 @@
+.img-detail {
+    max-width: 800px;
+    height: 60vh;
+}
+
+.div-contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 30px;
+    height: 100%;
+
+}
+
+.item-detail {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: auto;
+    padding: 30px;
+    gap: 3px;
+}
+
+.nombre-detail {
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+}
+
+.precio-detail {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    margin-top: 1rem;
+    color: #006db6;
+
+
+}
+
+.id-detail {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.link-productos {
+    width: 100%;
+    background-color: #006db6;
+    width: 220px;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 0.1rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    display: block;
+    transition: 0.8s;
+
+}
+
+.link-productos:hover {
+    background-color: #0785bb;
+}
+
+@media (max-width:1100px) {
+    .item-detail {
+        max-width: 400px;
+    }
+
+    .img-detail {
+        max-width: 400px;
+        height: 60vh;
+    }
+
+    .div-contenedor {
+        max-width: 1100px;
+    }
+}

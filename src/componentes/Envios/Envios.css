@@ -1,0 +1,29 @@
+
+.contenedor-envios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color: rgb(226, 220, 220);
+}
+
+.envios{
+    display: flex;
+    flex-direction: row;
+}
+.medios-envios{
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 0.3rem;
+    font-weight:bold;
+    font-size: 2.0rem;
+}
+
+.img-pagos{
+    padding: 25px 10px 10px 0px;
+}
+.img-camion{
+    width: 100px;
+    height: 80px;
+}
+

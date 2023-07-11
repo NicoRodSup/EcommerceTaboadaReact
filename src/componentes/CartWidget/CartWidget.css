@@ -1,0 +1,8 @@
+.imgCarrito{
+    width: 3.5rem;
+}
+.cantidad-total{
+    text-decoration: none;
+    color:black;
+    font-size: 1.2rem;
+}

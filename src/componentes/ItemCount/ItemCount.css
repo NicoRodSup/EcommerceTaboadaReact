@@ -1,0 +1,58 @@
+.counter {
+    display: flex;
+    gap: 20px;
+
+}
+
+.controles {
+    display: flex;
+    gap: 10px;
+    height: 60px;
+
+}
+
+button {
+    width: 40px;
+    background-color: #006db6;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    height: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.agregar {
+    width: 300px;
+    padding: 2px;
+    font-weight: 800;
+    font-size: 1rem;
+    color: white;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+.agregar:hover{
+    background-color: #0785bb;
+}
+
+p {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black
+}
+
+@media (max-width:1100px){
+    button{
+        width: 25px;
+        height: 35px;
+    }
+    .agregar{
+        max-width: 200px;
+        height: 35px;
+    }
+}

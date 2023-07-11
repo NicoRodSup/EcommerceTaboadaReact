@@ -1,0 +1,32 @@
+.cart-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.btn-eliminar {
+    width: 130px;
+    background-color: #006db6;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 0.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    display: block;
+    height: auto;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.btn-eliminar:hover {
+    background-color: #0785bb;
+}
+
+.img-cart {
+    height: 150px;
+}
