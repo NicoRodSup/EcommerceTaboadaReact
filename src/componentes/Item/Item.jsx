@@ -1,4 +1,3 @@
-import ItemCount from '../ItemCount/ItemCount'
 import './Item.css'
 import { Link } from 'react-router-dom'
 
@@ -11,7 +10,6 @@ const Item = ({ id, nombre, precio, img }) => {
         <img className='producto-imagen' src={img} alt={nombre} />
         <h3 className='nombre-producto'>{nombre}</h3>
         <p className='precio-producto'>$ {precio}</p>
-        {/* <p className='id-producto'>ID:{id} </p> */}
         <Link className ='link-productos' to={`/item/${id}`}> Ver Mas </Link>
         
       </div>

@@ -33,7 +33,8 @@ button {
     transition: 0.8s;
 
 }
-.agregar:hover{
+
+.agregar:hover {
     background-color: #0785bb;
 }
 
@@ -46,12 +47,13 @@ p {
     color: black
 }
 
-@media (max-width:1100px){
-    button{
+@media (max-width:1100px) {
+    button {
         width: 25px;
         height: 35px;
     }
-    .agregar{
+
+    .agregar {
         max-width: 200px;
         height: 35px;
     }
