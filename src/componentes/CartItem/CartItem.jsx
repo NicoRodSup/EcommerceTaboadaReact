@@ -5,10 +5,9 @@ import './CartItem.css';
 
 const CartItem = ({ item, cantidad, img }) => {
     const { eliminarProducto } = useContext(CartContext);
-    // console.log(item.img)
     return (
         <>
-            <div className="cart-flex">
+            <div  className="cart-flex" key ={item.id} >
                 <h4>{item.nombre}</h4>
                 <p>Cantidad : {cantidad}</p>
                 <img className="img-cart" src={item.img} alt={item.nombre} />

@@ -17,7 +17,7 @@ const CheckOut = () => {
     const {cart,vaciarCart,total,cantidadTotal} = useContext(CartContext);
 
     const manejadorFormulario = (event) =>{
-        event.preventDefault()
+        event.preventDefault();
 
     
 

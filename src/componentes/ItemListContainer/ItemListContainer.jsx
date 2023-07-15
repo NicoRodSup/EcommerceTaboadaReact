@@ -29,7 +29,7 @@ const ItemListContainer = (props) => {
   return (
     <>
       <h2> {props.greeting}</h2>
-      <ItemList productos={productos} />
+      <ItemList productos={productos.map((prod) => ({key:prod.id, ...prod}))} />
     </>
   )
 }
