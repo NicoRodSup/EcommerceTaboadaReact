@@ -101,7 +101,7 @@ const CheckOut = () => {
                 <button className="btn-form"  type="submit"> Finalizar Compra</button>
             </form>
             {
-                ordenId && <strong> Gracias por tu nombre tu nro de orden es {ordenId} </strong>
+                ordenId && <strong> Gracias por tu compra tu nro de orden es {ordenId} </strong>
 
             }
         </div>
