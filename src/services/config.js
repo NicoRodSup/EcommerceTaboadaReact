@@ -1,8 +1,8 @@
 import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore"
-
+// "AIzaSyBc3ODdhBU6UT3-Iy0ElYIbgi_brtO7Go0"
 const firebaseConfig = {
-    apiKey: "AIzaSyBc3ODdhBU6UT3-Iy0ElYIbgi_brtO7Go0",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: "e-commerce-taboada.firebaseapp.com",
     projectId: "e-commerce-taboada",
     storageBucket: "e-commerce-taboada.appspot.com",

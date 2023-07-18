@@ -24,6 +24,7 @@ const ItemDetail = ({ id, nombre, precio, img, stock }) => {
                 <h2 className='nombre-detail'>{nombre}</h2>
                 <h3 className='precio-detail'>${precio}</h3>
                 <h3 className='id-detail'>ID : {id}</h3>
+                <h4 className='stock-detail'>Stock Disponible : {stock}</h4>
                 {
                     agregarCantidad > 0 ? (<Link className='link-productos' to="/cart">Finalizar pedido</Link>) : (<ItemCount initial={1} stock={stock} onAdd={manejadorCantidad} />)
                 }
