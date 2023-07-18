@@ -3,9 +3,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 50px;
     padding-top: 30px;
     background-color: rgb(226, 220, 220);
+    margin-top: 50px;
 }
 
 .envios{

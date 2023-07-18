@@ -86,6 +86,7 @@
     margin-top: 130px;
     margin-bottom: 20px;
     gap: 30px;
+    padding-top: 10px;
 }
 
 .total-flex {
@@ -105,4 +106,47 @@
     h4{
         font-size: 0.9rem;
     }
+}
+@media (max-width:768px){
+    .contenedor-cart{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .total{
+        font-size: 2.6rem;
+    }
+    .cantidad-total{
+        font-size: 1rem;
+    }
+    .link-finalizar{
+        font-size: 1.3rem;
+        width: 300px;
+    }
+
+}
+
+
+@media (max-width:576px){
+    .contenedor-cart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding-top: 20px;
+    }
+    .total{
+        font-size: 2.3rem;
+    }
+
+    .link-finalizar {
+        font-size: 1rem;
+        width: 260px;
+    }
+    .btn-vaciar{
+        width: 150px;
+        font-size: 0.8rem;
+    }
+    .cantidad-total{
+        font-size: 1rem;
+    }
+    
 }

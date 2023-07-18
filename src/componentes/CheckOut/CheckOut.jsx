@@ -92,13 +92,15 @@ const CheckOut = () => {
                     <div className="input-container">
                         <label className="label" htmlFor="">Email Confirmacion</label>
                         <input className="input" type="email" value={emailConfirmacion} onChange={(e) => setEmailConfirmacion(e.target.value)} />
-                    </div>                
+                    </div>      
+                    <button className="btn-form"  type="submit"> Finalizar Compra</button>
+          
                 </div>
                 {
                     error && <p> {error}</p>
                 }
 
-                <button className="btn-form"  type="submit"> Finalizar Compra</button>
+                {/* <button className="btn-form"  type="submit"> Finalizar Compra</button> */}
             </form>
             {
                 ordenId && <strong> Gracias por tu compra <br /> Tu numero de orden es : {ordenId} . <br /> Recibiras un email donde te indicaremos dia y horario de entrega de tu pedido. </strong>
