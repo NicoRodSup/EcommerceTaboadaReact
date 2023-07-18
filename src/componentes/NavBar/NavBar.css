@@ -47,7 +47,7 @@ img {
     display: none;
 }
 
-.btn-abrir.oculto{
+.btn-abrir.oculto {
     display: none;
 }
 
@@ -73,7 +73,7 @@ img {
         display: block;
 
     }
-    
+
     nav {
         position: absolute;
         top: 0;
@@ -106,17 +106,24 @@ img {
         padding-top: 2rem;
     }
 
-    .btn-abrir{
+    .btn-abrir {
         border: 0;
         font-size: 1.7rem;
         cursor: pointer;
         padding-left: 2rem;
-        
+
     }
-    .btn-cerrar{
+
+    .btn-cerrar {
         border: 0;
         font-size: 1.5rem;
         cursor: pointer;
     }
 
+}
+
+@media screen and (max-width : 576px) {
+    .btn-abrir {
+        padding-left: 0rem;
+    }
 }
