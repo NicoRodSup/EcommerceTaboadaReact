@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 100px;
 }
 
 .form-group {
@@ -31,7 +31,7 @@
     font-weight: 700;
 }
 
-.btn-form{
+.btn-form {
     background-color: #006db6;
 
     color: white;
@@ -41,4 +41,10 @@
     cursor: pointer;
     width: 200px;
     margin-top: 30px;
+}
+
+@media(max-width:576px) {
+    .input {
+        max-width: 300px;
+    }
 }

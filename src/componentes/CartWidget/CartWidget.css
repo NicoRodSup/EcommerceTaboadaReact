@@ -6,3 +6,9 @@
     color:black;
     font-size: 1.2rem;
 }
+
+@media(max-width:576px){
+    .imgCarrito{
+        width: 3.0rem;
+    }
+}

@@ -38,3 +38,32 @@
     
 }
 
+@media(max-width:768px){
+    .contenedor-envios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .contenedor-camion{
+        text-align: center;
+    }
+    .medios-envios{
+        font-size: 2.0rem;
+    }
+}
+
+
+@media(max-width:576px){
+    .contenedor-envios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .contenedor-camion{
+        text-align: center;
+    }
+
+}
+
