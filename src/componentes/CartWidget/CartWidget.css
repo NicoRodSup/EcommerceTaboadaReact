@@ -1,14 +1,15 @@
-.imgCarrito{
+.imgCarrito {
     width: 3.5rem;
 }
-.cantidad-total{
+
+.cantidad-total {
     text-decoration: none;
-    color:black;
+    color: black;
     font-size: 1.2rem;
 }
 
-@media(max-width:576px){
-    .imgCarrito{
+@media(max-width:576px) {
+    .imgCarrito {
         width: 3.0rem;
     }
 }

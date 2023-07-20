@@ -2,12 +2,11 @@ import { useContext } from "react";
 import { CartContext } from "../../Context/CartContext";
 import './CartItem.css';
 
-
 const CartItem = ({ item, cantidad, img }) => {
     const { eliminarProducto } = useContext(CartContext);
     return (
         <>
-            <div  className="cart-flex" key ={item.id} >
+            <div className="cart-flex" key={item.id} >
                 <h4>{item.nombre}</h4>
                 <p>Cantidad : {cantidad}</p>
                 <img className="img-cart" src={item.img} alt={item.nombre} />

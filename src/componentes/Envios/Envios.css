@@ -1,5 +1,4 @@
-
-.contenedor-envios{
+.contenedor-envios {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,62 +7,65 @@
     margin-top: 50px;
 }
 
-.envios{
+.envios {
     display: flex;
     flex-direction: row;
 }
-.medios-envios{
+
+.medios-envios {
     font-family: 'Bodoni Moda', serif;
     letter-spacing: 0.3rem;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 2.0rem;
 }
 
-.img-pagos{
+.img-pagos {
     padding: 25px 10px 10px 0px;
 }
-.img-camion{
+
+.img-camion {
     width: 100px;
     height: 80px;
 }
 
 @media (max-width:1100px) {
-    .medios-envios{
+    .medios-envios {
         letter-spacing: 0.2rem;
         font-size: 1.8rem;
     }
-    .contenedor-envios{
+
+    .contenedor-envios {
         margin-top: 10px;
     }
-    
+
 }
 
-@media(max-width:768px){
-    .contenedor-envios{
+@media(max-width:768px) {
+    .contenedor-envios {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    .contenedor-camion{
+
+    .contenedor-camion {
         text-align: center;
     }
-    .medios-envios{
+
+    .medios-envios {
         font-size: 2.0rem;
     }
 }
 
-
-@media(max-width:576px){
-    .contenedor-envios{
+@media(max-width:576px) {
+    .contenedor-envios {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    .contenedor-camion{
+
+    .contenedor-camion {
         text-align: center;
     }
-
 }
-

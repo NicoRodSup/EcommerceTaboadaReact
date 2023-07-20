@@ -4,8 +4,6 @@ import { Link } from "react-router-dom"
 import CartItem from "../CartItem/CartItem";
 import './Cart.css'
 
-
-
 const Cart = () => {
     const { cart, vaciarCart, total, cantidadTotal } = useContext(CartContext);
     if (cantidadTotal === 0) {
@@ -19,7 +17,7 @@ const Cart = () => {
     return (
         <>
             <div className="contenedor-cart">
-                {cart.map(producto => <CartItem key={producto.id} {...producto} />)}
+                {cart.map(producto => <CartItem key={producto.item.id} {...producto} />)}
             </div>
             <hr />
             <div className="total-flex">
